@@ -1,4 +1,3 @@
 # html-sash
 Code First Girls Project
-
-ANNIE
+Claudia, Ilona and Annie
