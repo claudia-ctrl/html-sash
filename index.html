@@ -22,10 +22,10 @@
                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                </li>
                <li class="nav-item">
-                 <a class="nav-link" href="#">About</a>
+                 <a class="nav-link" href="pics.html">Pictures</a>
                </li>
                <li class="nav-item">
-                 <a class="nav-link" href="#">Form</a>
+                 <a class="nav-link" href="form.html">Form</a>
                </li>
              </ul>
            </div>
@@ -43,21 +43,21 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="Pic1.jpg" class="d-block w-100" alt="A Local Image">
+        <img src="Pic1.jpg" class="d-block w-100 myimage" alt="A Local Image">
         <div class="carousel-caption d-none d-md-block">
           <h5>Breeze</h5>
           <p>Sketched June 2017</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="Pic2.jpg" class="d-block w-100" alt="A Local Image">
+        <img src="Pic2.jpg" class="d-block w-100 myimage" alt="A Local Image">
         <div class="carousel-caption d-none d-md-block">
           <h5>Panda</h5>
           <p>Sketched April 2018</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="Pic3.jpg" class="d-block w-100" alt="A Local Image">
+        <img src="Pic3.jpg" class="d-block w-100 myimage" alt="A Local Image">
         <div class="carousel-caption d-none d-md-block">
           <h5>Biscuit</h5>
           <p>Sketched October 2019</p>
@@ -75,11 +75,15 @@
   </div>
 </div>
 
-  <h2>My Story...</h2>
-  <p> I love drawing dogs cats bats and rats</p>
+
+<div id= 'main'>
+
+
 
 <div class='row'>
   <div class= 'col-lg'>
+    <h2>My Story...</h2>
+    <p> I love drawing dogs cats bats and rats</p>
     <p> About Me </p>
     <p><img src="Pic4.jpg" alt="A Local Image" width="200px" </p>
     <p> Number: 01265850375</p>
@@ -94,7 +98,7 @@
     <p> Oil Painting............£20</p>
   </div>
 </div>
-
+</div>
   <p>  </p>
   <p> Follow my progress on <a href="https://github.com/login"> Github </a>
 </body>
@@ -102,115 +106,3 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
-
-
-
-
-
-
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial;
-  padding: 10px;
-  background: #f1f1f1;
-}
-
-/* Header/Blog Title */
-.header {
-  padding: 30px;
-  text-align: center;
-  background: white;
-}
-
-.header h1 {
-  font-size: 50px;
-}
-
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {
-  float: left;
-  width: 75%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
-}
-
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Add a card effect for articles */
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {
-    width: 100%;
-    padding: 0;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}
