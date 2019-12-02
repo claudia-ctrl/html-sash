@@ -1,0 +1,47 @@
+#grad {
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+h1 {
+  text-align: center;
+}
+
+body{
+color: black;
+font-family:fantasy;
+margin:0px;
+}
+
+
+body {
+  background-image: url("blue-flower3333.jpeg");
+  background-attachment: fixed;
+}
+
+h2 {
+  colour: #3679af
+}
+
+h1 {
+  font-size: 3.5em
+}
+
+
+li {
+  font-size: 1.5em
+}
+
+#best {
+  color: purple;
+}
+
+.contrast {
+  background-color: lightblue;
+  display: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div {
+  animation: mymove 5s infinite;
+}
