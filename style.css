@@ -1,0 +1,12 @@
+.row {
+  margin: 200px;
+}
+
+img {
+  border-radius: 100px;
+  display: flex;
+}
+
+body {
+  background-color: lightblue;
+}
