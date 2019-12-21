@@ -31,10 +31,20 @@ body {
 
 li {
   font-size: 1.5em;
+=======
+
+body {
+  background-color: lightblue;
 }
 
-#best {
-  color: purple;
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
 }
 
 .contrast {
@@ -43,10 +53,15 @@ li {
   justify-content: center;
   flex-direction: column;
   color: white;
+  }
+  
+#main {
+  text-align: center;
 }
 
-div {
-  animation: mymove 5s infinite;
+.myimage {
+  width: 200px;
+  height: 700px;
 }
 
 .row {
