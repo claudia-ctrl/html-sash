@@ -6,15 +6,21 @@ h1 {
   text-align: center;
   font-size: 3.5em;
   color: white;
+  font-family: verdana;
 }
 
-h2, h3 {
+h2,h3,h4 {
   text-align: center;
   font-size: 1.5em;
+  color: white;
+  font-family: verdana;
 }
 
-h4, h5 {
+h5,h6 {
   text-align: center;
+  color: white;
+  font-family: verdana;
+  font-size: 1.5em; 
 }
 
 body{
@@ -23,23 +29,13 @@ font-family:fantasy;
 margin:0px;
 }
 
-
 body {
   background-image: url("blue-flower3333.jpeg");
   background-attachment: fixed;
 }
 
-li {
-  font-size: 1.5em;
-=======
-
-body {
+#main {
   background-color: lightblue;
-}
-
-h1 {
-  color: white;
-  text-align: center;
 }
 
 p {
@@ -53,8 +49,8 @@ p {
   justify-content: center;
   flex-direction: column;
   color: white;
-  }
-  
+}
+
 #main {
   text-align: center;
 }
@@ -66,5 +62,4 @@ p {
 
 .row {
   color: white;
-  text-align: center; 
 }
